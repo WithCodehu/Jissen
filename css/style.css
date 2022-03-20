@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  padding: 1.5% 5%;
+}
+
+nav ul li {
+  font-size: 1.2em;
+}
+
+nav ul li a {
+  color: yellow;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+#top {
+  height: 600px;
+  background: url(../img/sub.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.top_wrapper {
+  background-color: blue;
+  padding: 1.5%;
+  margin-right: 20%;
+}
+
+.top_wrapper h1 {
+  font-size: 1.8em;
+  color: yellow;
+}
+
+#service {
+  width: 85%;
+  margin: 5% auto;
+}
+
+.section_title {
+  font-size: 2.5em;
+  text-align: center;
+  color: green;
+  margin: 4% auto;
+}
+
+.service_wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+.service_left {
+  max-width: 50%;
+}
+
+.service_left img {
+  width: 80%;
+
+  align-items: center;
+  height: auto;
+}
+
+.service_right h3 {
+  font-size: 1.2em;
+  color: #75d5ff;
+  padding: 2.5% 0;
+}
+
+.service_right p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+}
+
+#news {
+  width: 100%;
+  margin: 5% auto;
+}
+
+.news_wrapper {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+#price {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.price_wrapper table {
+  border: double #75d5ff 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrapper table tr {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+
+.price_wrapper table th {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+
+.price_wrapper table td {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+
+#footer {
+  background-color: #444;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
